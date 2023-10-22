@@ -23,13 +23,11 @@
         <br />
         <label for="guild">Цех</label>
         <select v-model="selectedGuild" :disabled="!selectedCity">
-          <option value="-">-</option>
           <option v-for="guild in guilds[selectedCity]" :value="guild">{{ guild }}</option>
         </select>
         <br />
         <label for="employee">Сотрудник</label>
         <select v-model="selectedEmployee" :disabled="!selectedGuild">
-          <option value="-">-</option>
           <option v-for="employee in employees[selectedGuild]" :value="employee">{{ employee }}</option>
         </select>
         <br />
