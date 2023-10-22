@@ -5,9 +5,9 @@ const start = () => {
   );
   const now = new Date();
   const guilds = {
-    saratov: ["Первый", "Пятый"],
-    moscow: ["Второй", "Четвертый"],
-    "st.peterburg": ["Третий"],
+    saratov: ["-", "Первый", "Пятый"],
+    moscow: ["-", "Второй", "Четвертый"],
+    "st.peterburg": ["-", "Третий"],
   };
   const employees = {
     Первый: ["Ирина", "Майя", "Олег", "Владимир", "Александр"],
